@@ -1,0 +1,23 @@
+| prediction | CREATE TABLE `prediction` (
+  `EndLine` varchar(20) NOT NULL,
+  `Line` varchar(20) NOT NULL,
+  `TLOC` varchar(20) NOT NULL,
+  `LOC` varchar(20) NOT NULL,
+  `TLLOC` varchar(20) NOT NULL,
+  `LLOC` varchar(20) NOT NULL,
+  `TNOS` varchar(20) NOT NULL,
+  `NOS` varchar(20) NOT NULL,
+  `WarningMinor` varchar(20) NOT NULL,
+  `String_and_StringBuffer_Rules` varchar(20) NOT NULL,
+  `LDC` varchar(20) NOT NULL,
+  `TCLOC` varchar(20) NOT NULL,
+  `LLDC` varchar(20) NOT NULL,
+  `CLOC` varchar(20) NOT NULL,
+  `DLOC` varchar(20) NOT NULL,
+  `WarningInfo` varchar(20) NOT NULL,
+  `WMC` varchar(20) NOT NULL,
+  `TNM` varchar(20) NOT NULL,
+  `Clone_Metric_Rules` varchar(20) NOT NULL,
+  `Documentation_Metric_Rules` varchar(20) NOT NULL,
+  `Result` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
